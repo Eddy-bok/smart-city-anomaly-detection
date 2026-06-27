@@ -67,9 +67,9 @@ The K-Means clustering section shows how smart city traffic data can be grouped 
 
 The anomaly detection section shows how unusual energy consumption behavior can be detected using probability modeling. Observations with very low probability under the learned Gaussian distribution are flagged as anomalies. In a smart city setting, these anomalies could represent unusual demand, sensor issues, equipment faults, or other events that require monitoring.
 
-## Important Note
+## Scope and Future Improvements
 
-This project is an educational implementation of clustering and anomaly detection methods. The algorithms are implemented manually to demonstrate the underlying logic. A production version would require larger datasets, validation across time periods, domain-specific thresholds, and integration with real-time monitoring systems.
+This project demonstrates a compact proof-of-concept workflow for clustering and anomaly detection in smart city monitoring. Future improvements could include larger datasets, time-based validation, automated threshold tuning, and integration with real-time monitoring pipelines.
 
 ## Repository Structure
 
